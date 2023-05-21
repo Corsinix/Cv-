@@ -1,3 +1,8 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
 h1 {
     display: none;
 }
@@ -6,34 +11,45 @@ h1 {
     background-color: #1e1b1b;
     color: #ffffff;
   }
-.dark.button {
+.darkbutton {
     border-radius: 10px;
     position: absolute;
     width: 50px;
     height: 50px;
     top: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: #1e1b1b;
 }
 .inconebutton{
     width: 30px;
     height: 30px;
+    margin: auto;
 }
-.section1{
-    margin: 100px 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
-article{
-    width: 50%;
-    
-}
-.renseignement{
+.slide{
     background-color: rgb(0, 123, 189);
-    height: 200%;
-    margin-right: 40px;
+    justify-content: space-evenly;
+    max-width: 300px;
 }
 .pdp{
     width: 200px;
+    height: 200px;
     margin: 20px;
+    border-radius: 100px;
+    border: solid;
+    position: relative;
+}
+#photocenter{
+    height: 40px;
+    width: 40px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#moon{
+    display:none;
+    fill :#1e1b1b;
+}
+#sun{
+    fill:#ffffff;
 }
