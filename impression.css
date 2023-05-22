@@ -1,0 +1,54 @@
+
+.darkbutton {
+    display: none;
+}
+
+/* Masquer les icônes du bouton darkmode */
+.inconebutton {
+    display: none;
+}
+
+/* Cacher le slider */
+.slider {
+    display: none;
+}
+
+/* Ajuster la mise en page pour l'impression */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+.pageup{
+    padding-top: 80px;
+}
+
+h1, h2 {
+    color: #000;
+}
+
+p, ul, li {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+img.pdp {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: solid;
+}
