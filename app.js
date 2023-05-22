@@ -31,12 +31,12 @@ function slide(){
   $("header").toggleClass("left")
   if ($("header").hasClass("left")){
     $(".slider").html(">>");
-    $("main").animate({position:"static",margin:"40px 0 0 -450px"});
+    $("main").animate({margin:"40px 0 0 -47%"});
     
   }
   else {
     $(".slider").html("<<");
-    $("main").animate({position:"absolute",margin:"0"});
+    $("main").animate({margin:"0"});
   }
 
   $(document).ready(function() {
@@ -49,6 +49,7 @@ function slide(){
   
   function checkScreenSize() {
     if ($(window).width() < 750) {
+      $("header").removeClass("left");
       $("main").css({position:"static",margin:"0 10px"});
     }
   }
