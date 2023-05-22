@@ -31,12 +31,12 @@ function slide(){
   $("header").toggleClass("left")
   if ($("header").hasClass("left")){
     $(".slider").html(">>");
-    $("main").css({position:"absolute",margin:"50px"});
-
+    $("main").animate({position:"static",margin:"40px 0 0 -450px"});
+    
   }
   else {
     $(".slider").html("<<");
-    $("main").css({position:"static",margin:"0"});
+    $("main").animate({position:"absolute",margin:"0"});
   }
 
   $(document).ready(function() {

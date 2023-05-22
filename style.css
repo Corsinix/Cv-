@@ -22,7 +22,7 @@ header{
 main{
     grid-column: 2/4;
     padding: 0 20px;
-    transition: 0.7s ease-in;
+    transition: 0.7s cubic-bezier(0.04, 0.82, 1, 1.21);
 }
 section{
     width: 95%;
@@ -64,6 +64,7 @@ h1 {
     margin: 5px;
 }
 .slider{
+    margin-top: 10px;
     border-radius: 5px;
     right:0;
     margin-right: -40px;
