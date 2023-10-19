@@ -8,12 +8,6 @@ function darkmod (){
     $("section").css("background-color","rgb(50, 98, 123)");
 
 
-    $(".pdp").on("mouseenter",function(){
-      $(".pdp").attr("src","https://media.tenor.com/1y8zDc-ll-EAAAAC/3d-saul-saul-goodman.gif")
-    });
-    $(".pdp").on("mouseleave",function(){
-      $(".pdp").attr("src","pdp.jpg")
-    });
   }
   else {
     $(".darkbutton").css("background-color","#1e1b1b");
@@ -23,8 +17,6 @@ function darkmod (){
     $("section").css("background-color","#FFFFFF");
 
 
-    $(".pdp").off("mouseenter");
-    $(".pdp").off("mouseleave");
   }
 };
 function slide(){
